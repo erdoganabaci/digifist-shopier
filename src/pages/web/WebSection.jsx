@@ -7,7 +7,18 @@ const WebSection = () => {
 
       </div>
       <div className={styles.content}>
-        <div className={styles.rectangle} />
+        <div className={styles.rectangle} >
+
+        <div className={styles.button1}>
+          <div className={styles.elements}>
+            <img
+              className={styles.iconArrowsChevronRight}
+              alt=""
+              src="/icon--arrows--chevron-right.svg"
+            />
+          </div>
+        </div>
+        </div>
         <div className={styles.everydayItemsWeHaveSomethParent}>
           <b className={styles.everydayItemsWe}>
             Everyday items, we have something to suit every occasion.
@@ -132,15 +143,7 @@ const WebSection = () => {
             </div>
           </div>
 
-          <div className={styles.button1}>
-          <div className={styles.elements}>
-            <img
-              className={styles.iconArrowsChevronRight}
-              alt=""
-              src="/icon--arrows--chevron-right.svg"
-            />
-          </div>
-        </div>
+        
         
         </div>
        
