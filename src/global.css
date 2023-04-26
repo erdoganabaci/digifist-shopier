@@ -21,8 +21,9 @@ body {
   --heading-4: "ITC Avant Garde Gothic Pro";
 
   /* font sizes */
-  --body-body-bold-mobile-size: 12.8px;
   --font-size-2xs-2: 10.2px;
+  --body-body-bold-mobile-size: 12.8px;
+  --heading-4-mobile-size: 20px;
   --body-body-size: 16px;
   --font-size-12xl-3: 31.3px;
 
@@ -33,7 +34,9 @@ body {
   --typography-body: #666;
 
   /* Gaps */
+  --gap-5xs: 8px;
   --gap-9xs: 4px;
+  --gap-8xs: 5px;
 
   /* Paddings */
   --padding-9xs: 4px;

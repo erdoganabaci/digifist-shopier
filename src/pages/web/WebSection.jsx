@@ -1,13 +1,11 @@
-import styles from "./Section.module.css";
-const Section = () => {
+import styles from "./WebSection.module.css";
+const WebSection = () => {
   return (
     <div className={styles.section}  >
-      {/* <img className={styles.imageIcon} alt="" src="/bg-women.png" /> */}
       <div className={styles.imageDiv}>
       <div className={styles.imageIcon} />
 
       </div>
-      {/* <img className={styles.imageIcon} alt="" src="/image.svg" /> */}
       <div className={styles.content}>
         <div className={styles.rectangle} />
         <div className={styles.everydayItemsWeHaveSomethParent}>
@@ -26,6 +24,7 @@ const Section = () => {
           </div>
         </div>
         <div className={styles.scroll}>
+         
           <div className={styles.rectangle1} />
           <div className={styles.productCard}>
             <img
@@ -132,8 +131,8 @@ const Section = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className={styles.button1}>
+
+          <div className={styles.button1}>
           <div className={styles.elements}>
             <img
               className={styles.iconArrowsChevronRight}
@@ -142,9 +141,12 @@ const Section = () => {
             />
           </div>
         </div>
+        
+        </div>
+       
       </div>
     </div>
   );
 };
 
-export default Section;
+export default WebSection;
