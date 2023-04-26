@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@700&display=swap");
+@font-face {
+  font-family: "ITC Avant Garde Gothic Pro";
+  src: url("/public/ITC Avant Garde Gothic Bold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("/public/Avenir Regular.ttf");
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --body-body-bold-mobile: Avenir;
+  --font-catamaran: Catamaran;
+  --heading-4: "ITC Avant Garde Gothic Pro";
+
+  /* font sizes */
+  --body-body-bold-mobile-size: 12.8px;
+  --font-size-2xs-2: 10.2px;
+  --body-body-size: 16px;
+  --font-size-12xl-3: 31.3px;
+
+  /* Colors */
+  --background-white: #fff;
+  --color-crimson: #e22828;
+  --typography-primary: #000;
+  --typography-body: #666;
+
+  /* Gaps */
+  --gap-9xs: 4px;
+
+  /* Paddings */
+  --padding-9xs: 4px;
+  --padding-5xs: 8px;
+  --padding-10xs: 3px;
+}

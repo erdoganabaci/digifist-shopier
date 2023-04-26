@@ -1,0 +1,292 @@
+
+.imageDiv {
+  width: 50%;
+  height: 100vh; 
+  position: absolute;
+
+}
+.imageIcon {
+  width: 998px;
+  height: 100vh; 
+  position: absolute;
+  background-image: url("./bg-women.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.everydayItemsWe,
+.imageIcon,
+.rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rectangle {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  background-color: var(--background-white);
+}
+.everydayItemsWe {
+  line-height: 130%;
+  display: flex;
+  font-family: var(--heading-4);
+  align-items: flex-end;
+  width: 494px;
+}
+.atSuspendisseAugue {
+  position: absolute;
+  top: 135px;
+  left: 0;
+  font-size: var(--body-body-size);
+  line-height: 160%;
+  color: var(--typography-body);
+  display: inline-block;
+  width: 432px;
+}
+.textButton {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+.contentChild {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--typography-primary);
+  height: 1px;
+  flex-shrink: 0;
+}
+.button,
+.content1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.content1 {
+  align-items: center;
+  gap: 5px;
+}
+.button {
+  position: absolute;
+  top: 219px;
+  left: 0;
+  align-items: flex-start;
+  font-size: var(--body-body-bold-mobile-size);
+}
+.everydayItemsWeHaveSomethParent {
+  position: absolute;
+  top: 96px;
+  left: 120px;
+  width: 494px;
+  height: 242px;
+}
+.imageLifestyle,
+.rectangle1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rectangle1 {
+  height: 100%;
+  width: 125.83%;
+  right: -25.83%;
+  bottom: 0;
+  background-color: var(--background-white);
+}
+.imageLifestyle {
+  height: 85.4%;
+  width: 100%;
+  right: 0;
+  bottom: 14.6%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.newArrival {
+  position: relative;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.productTag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background-color: var(--background-white);
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-5xs) var(--padding-10xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.organicSkinnyHigh {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  width: 230px;
+}
+.div,
+.price1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.div {
+  line-height: 160%;
+  font-weight: 500;
+}
+.price1 {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+}
+.div1,
+.div2 {
+  position: relative;
+  font-weight: 500;
+}
+.div1 {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.div2 {
+  line-height: 160%;
+  color: var(--color-crimson);
+}
+.parent,
+.salePrice {
+  position: absolute;
+  height: 100%;
+}
+.parent {
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.salePrice {
+  width: 210%;
+  top: 152.5%;
+  right: -102.5%;
+  bottom: -152.5%;
+  left: -7.5%;
+  display: none;
+  text-align: left;
+}
+.price,
+.swatchesIcon {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.swatchesIcon {
+  width: 72px;
+  height: 12px;
+}
+.priceParent {
+  width: 230px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.organicSkinnyHighWaistJeanParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.detials {
+  position: absolute;
+  top: 322px;
+  left: 0;
+  width: 230px;
+  height: 44px;
+  font-size: var(--body-body-bold-mobile-size);
+  color: var(--typography-primary);
+  font-family: var(--body-body-bold-mobile);
+}
+.productCard,
+.productCard1,
+.productCard2,
+.scroll {
+  position: absolute;
+  top: 0;
+  left: 120px;
+  width: 230px;
+  height: 363px;
+}
+.productCard1,
+.productCard2,
+.scroll {
+  left: 382px;
+}
+.productCard2,
+.scroll {
+  left: 644px;
+}
+.scroll {
+  top: 406px;
+  left: 0;
+  width: 720px;
+  overflow-x: auto;
+  font-size: 10.24px;
+  color: var(--typography-body);
+  font-family: var(--font-catamaran);
+}
+.iconArrowsChevronRight {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.button1,
+.elements {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button1 {
+  position: absolute;
+  top: 541px;
+  right: 48px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  padding: 12px;
+}
+.content,
+.section {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+.content {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  overflow-y: scroll;
+}
+.section {
+  position: relative;
+  background-color: var(--background-white);
+  width: 100%;
+  text-align: left;
+  font-size: var(--heading-4-size);
+  color: var(--typography-primary);
+  font-family: var(--body-body-bold-mobile);
+}
